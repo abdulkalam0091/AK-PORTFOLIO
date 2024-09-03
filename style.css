@@ -1,0 +1,238 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    
+    size-adjust: 30px;
+    display: flex;
+    justify-content: space-evenly;
+
+    position: sticky;
+      
+}
+.navitem{
+    size-adjust: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    position: sticky;
+
+}
+.contact{
+    background-color: #5294d2;
+    width: 100px;
+    height: 50px;
+}
+
+body {
+    background-color: hsl(229, 50%, 13%);
+}
+
+.heading {
+    color: whitesmoke;
+    font-style: unset;
+    font-size: larger;
+    margin-left: 25px;
+}
+
+.button1 {
+    background-color: #4f9dd7;
+    size: 20%;
+    margin-top: 15px;
+}
+
+.image h2 {
+    display: flex;
+    color: white;
+margin-top: 20px;
+    text-align: center;
+}
+.Aboutme{
+    text-align: center;
+}
+
+.kalam {
+    border: 20px solid black;
+    box-shadow: 100px 60px 40px aqua;
+}
+
+.portfolio {
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+
+.navitem {
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    gap: 20px;
+}
+.shopping{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    margin-left: 800px;
+    margin-right: 60px;
+    z-index: 1;
+}
+.shopping2{
+    color: white;
+   
+}
+.songs{
+    display: flex;
+}
+.songs1{
+    color: white;
+    display: flex;
+}
+
+
+.fitness1{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    margin-left: 800px;
+    margin-right: 80px;
+}
+.fitness2{
+    
+    color: white;
+}
+.ticket1{
+    display: flex;
+    margin-top: 80px;
+
+}
+.ticket2{
+    display: flex;
+    color: white;
+    margin-left: 280px;
+}
+
+
+
+
+
+
+
+.experince1{
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+.html{
+    margin-left: 210px;
+    border: 20px solid red;
+    margin-top: 70px;
+}
+.css{
+    margin-top: 70px;
+    margin-left: 310px;
+    border: 20px solid aqua;
+}
+.java{
+    margin-top: 70px;
+    margin-left: 410px;
+    border: 20px solid yellow;
+
+}
+.footer{
+
+}
+
+
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.contact-info {
+    max-width: 500px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.info-item img {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.contact-form {
+    background-color: rgb(16, 22, 48);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-form button {
+    background-color: #4b6ccd;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #4b6ccd
+}
+
+footer {
+    background-color:#4b6ccd;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.social-icons img {
+    width: 80px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.social-icons img:hover {
+    opacity: 0.7;
+}
+
+
+
+    
+  

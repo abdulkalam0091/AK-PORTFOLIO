@@ -3,13 +3,15 @@ header {
     justify-content: space-between;
 }
 
+    
+{}
 .navbar {
     
     size-adjust: 30px;
     display: flex;
     justify-content: space-evenly;
-
     position: sticky;
+    color: white;
       
 }
 .navitem{
@@ -19,6 +21,11 @@ header {
     color: white;
     position: sticky;
 
+}
+
+
+a:hover{
+    color: aqua;
 }
 .contact{
     background-color: #5294d2;
@@ -58,7 +65,7 @@ margin-top: 20px;
     box-shadow: 100px 60px 40px aqua;
 }
 
-.portfolio {
+.PROJECTS {
     text-align: center;
     color: white;
     margin-top: 80px;
@@ -92,31 +99,30 @@ margin-top: 20px;
     display: flex;
 }
 
-
-.fitness1{
+.fitness{
     display: flex;
-    margin-top: 80px;
-    justify-content: space-between;
-    margin-left: 800px;
-    margin-right: 80px;
 }
 .fitness2{
-    
-    color: white;
-}
-.ticket1{
     display: flex;
+    color: white;
     margin-top: 80px;
-
+    margin-left: 480px;
+}
+.project3{
+    text-align: center;
+    display: flex;
+    color: aqua;
 }
 .ticket2{
-    display: flex;
     color: white;
-    margin-left: 280px;
+    
+    
+
 }
-
-
-
+.fitness image{
+   position: fixed; 
+   display: flex;
+}
 
 
 
@@ -152,6 +158,9 @@ margin-top: 20px;
     justify-content: space-around;
     align-items: center;
     padding: 40px 20px;
+    color: white;
+    background-color:#4b67cc;
+    margin-top: 100px;
 }
 
 .contact-info {
@@ -171,6 +180,7 @@ margin-top: 20px;
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+    color: white;
 }
 
 .info-item img {
@@ -210,7 +220,7 @@ margin-top: 20px;
 }
 
 footer {
-    background-color:#4b6ccd;
+    background-color:#101630;
     padding: 20px 0;
     text-align: center;
 }
@@ -220,6 +230,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    color: white;
 }
 
 .social-icons img {
@@ -231,6 +242,10 @@ footer {
 .social-icons img:hover {
     opacity: 0.7;
 }
+
+@media screen and (min-width: 400px)
+
+
 
 
 

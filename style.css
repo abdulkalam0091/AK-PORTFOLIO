@@ -19,11 +19,13 @@ margin-right: 150px;
     color: whitesmoke;
     size: 24px;
     gap: 40px;
-    
+    padding: 30px;
 }
 .contact{
 margin: 0%;
     padding:10px 30px;
+    border-radius: 25px;
+
 
 
 
@@ -306,6 +308,7 @@ background-color: rgb(82, 187, 228);box-shadow: inset -400px 0px   300px  #4922b
     display: flex;
     flex-direction: column;
 }
+
 
 .contact-form input, .contact-form textarea {
     margin-bottom: 10px;

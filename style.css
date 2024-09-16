@@ -1,40 +1,44 @@
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
 }
 
+.navbar{
+text-align: center;
+display: flex;
+justify-content: center;
+font-size: 24px;
+gap: 40px;
+margin-right: 150px;
     
-{}
-.navbar {
-    
-    size-adjust: 30px;
-    display: flex;
-    justify-content: space-evenly;
-    position: sticky;
-    color: white;
-      
 }
-.navitem{
-    size-adjust: 30px;
-    display: flex;
-    justify-content: space-evenly;
-    color: white;
-    position: sticky;
+.navitem a{
+    text-align: center;
 
+    text-decoration: none;
+    color: whitesmoke;
+    size: 24px;
+    gap: 40px;
+    
+}
+.contact{
+margin: 0%;
+    padding:10px 30px;
+
+
+
+background-color: #519dd8 ;box-shadow: inset -10px -0px 20px #4929c3  ;
 }
 
 
 a:hover{
     color: aqua;
 }
-.contact{
-    background-color: #5294d2;
-    width: 100px;
-    height: 50px;
-}
+
 
 body {
     background-color: hsl(229, 50%, 13%);
+    overflow-x: hidden;
 }
 
 .heading {
@@ -44,31 +48,82 @@ body {
     margin-left: 25px;
 }
 
-.button1 {
-    background-color: #4f9dd7;
-    size: 20%;
-    margin-top: 15px;
+
+.previous{
+    background-color : #4ea1d7 ;box-shadow: inset  -20px 0px 20px#4922be;
+    padding: 20px 40px;
+    color: whitesmoke;
+    margin-bottom: 40px;
 }
 
-.image h2 {
+
+.container{
     display: flex;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.profile img{
+    object-fit: cover;
+    border-radius: 10px;
+    border-radius: 15px black;
+}
+.info{
+    margin-left: 20px;
+
+}
+.info h2{
+    color: #fff;
+    font-size: 44px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+}
+.info p{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom:20px;
     color: white;
-margin-top: 20px;
-    text-align: center;
+    margin-left: 250px;
+
 }
-.Aboutme{
-    text-align: center;
+.button{
+ margin-left: 250px;
+    
 }
 
-.kalam {
+.hire{
+    padding: 15px 35px;
+    background-color : #4ea1d7 ;box-shadow: inset  -20px 0px 20px#4922be;
+border: 1px solid #4b67cc;
+border-radius: 5px;
+color: white;
+font-weight: 600;
+}
+.resume{
+    background-color: #101630;
+}
+.profile {
     border: 20px solid black;
-    box-shadow: 100px 60px 40px aqua;
+    position: relative;
 }
+.border{
+    width: 350px;
+    height: 350px;
+    background-color: #5bbcd8;
+    border-radius: 20px;
+    border: 10px solid  #3e728e;
+    position: absolute;
+    right: -60px;
+    top: -60px;
+    z-index: -1;
 
+}
 .PROJECTS {
     text-align: center;
     color: white;
-    margin-top: 80px;
+    margin-top: 100px;
+    
 }
 
 .navitem {
@@ -79,52 +134,106 @@ margin-top: 20px;
     margin-top: 20px;
     gap: 20px;
 }
-.shopping{
-    display: flex;
-    margin-top: 80px;
-    justify-content: space-between;
-    margin-left: 800px;
-    margin-right: 60px;
-    z-index: 1;
-}
-.shopping2{
-    color: white;
-   
-}
-.songs{
+
+.container1{
     display: flex;
 }
-.songs1{
-    color: white;
-    display: flex;
+.container1:hover{
+    background-color:rgb(82, 187, 228) ;box-shadow: inset -400px 0px   300px  #4922be;
+}
+.container2:hover{
+background-color: rgb(82, 187, 228);box-shadow: inset -400px 0px   300px  #4922be;
 }
 
-.fitness{
-    display: flex;
+.container3:hover{
+    background-color: rgb(82, 187, 228);box-shadow: inset -400px 0px   300px  #4922be;
 }
-.fitness2{
-    display: flex;
+
+.container4:hover{
+    background-color: rgb(82, 187, 228);box-shadow: inset -400px 0px   300px  #4922be;
+}
+
+.info1{
+    
+    margin-top: 100px;
     color: white;
-    margin-top: 80px;
-    margin-left: 480px;
+    margin-left: 550px;
+    border-radius: 50px;
+    z-index: 100 60 40 ;
 }
-.project3{
-    text-align: center;
-    display: flex;
+.info1 h1{
+    color: #3e728e;
+}
+  .profile1{
+    margin-top: 90px;
+    z-index: 100px 60px 40px ;
     color: aqua;
-}
-.ticket2{
+    
+  }
+    
+  .container2{
+    display: flex;
+  }
+  .profile2{
+    
+    margin-top: 100px;
     color: white;
+    margin-left: 80px;
+  }
+  
+
+
+  
+  .info2{
+    color: white;
+    font-size: 15px;
+    margin-left: 150px;
+    margin-top: 60px;
+  }
+  .info2 h1{
+    color: #3e728e;
+  }
+  .container3{
+    display: flex;
+  }
+  
+  .info3{
+    color: white;
+    margin-top: 100px;
+    color: white;
+    margin-left: 550px;
+    border-radius: 50px;
+  }
+  .info3 h1{
+    color: #3e728e;
+  }
+  .profile3{
+    margin-top: 90px;
+  }
+
+
+.container4{
+    display: flex;
     
+}
+.info4{
+    margin-top: 80px;  
+    color: white;
+    margin-left: 150px;
     
-
 }
-.fitness image{
-   position: fixed; 
-   display: flex;
+.info4 h1{
+    color: #3e728e;
 }
-
-
+.profile4{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.ticket2 h1{
+    color: #1c4762;
+    
+}
+  
 
 
 .experince1{
@@ -132,24 +241,19 @@ margin-top: 20px;
     color: white;
     margin-top: 80px;
 }
-.html{
-    margin-left: 210px;
-    border: 20px solid red;
-    margin-top: 70px;
+.experince2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.html {
+    border: 25px solid red;
 }
 .css{
-    margin-top: 70px;
-    margin-left: 310px;
-    border: 20px solid aqua;
+    border: 25px solid #2164b1;
 }
 .java{
-    margin-top: 70px;
-    margin-left: 410px;
-    border: 20px solid yellow;
-
-}
-.footer{
-
+    border: 25px solid hsl(52, 77%, 48%);
 }
 
 
@@ -159,12 +263,16 @@ margin-top: 20px;
     align-items: center;
     padding: 40px 20px;
     color: white;
-    background-color:#4b67cc;
+    background-color : #4922be;box-shadow: inset  -20px 0px 20px#4ea1d7;
     margin-top: 100px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    
 }
 
+
 .contact-info {
-    max-width: 500px;
+    max-width: 800px;
 }
 
 .contact-info h2 {
@@ -190,8 +298,8 @@ margin-top: 20px;
 
 .contact-form {
     background-color: rgb(16, 22, 48);
-    padding: 20px;
-    border-radius: 8px;
+    padding: 50px;
+    border-radius: 20px;
 }
 
 .contact-form form {
@@ -201,53 +309,61 @@ margin-top: 20px;
 
 .contact-form input, .contact-form textarea {
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
     border: none;
 }
 
 .contact-form button {
-    background-color: #4b6ccd;
+    background-color:#509ad7;
     color: white;
     padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    scale: 1;
+    transition: all 1s;
 }
 
 .contact-form button:hover {
-    background-color: #4b6ccd
+    background-color: #4fa0d7;
+    scale: 1.1;
 }
 
 footer {
-    background-color:#101630;
+    background-color : #4ea1d7 ;box-shadow: inset  -20px 0px 20px#4922be;
     padding: 20px 0;
     text-align: center;
 }
 
-.footer-content {
+.footer-content  {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
     color: white;
 }
+.footer-content p {
+    text-align: center;
+}
 
-.social-icons img {
+.social-icons i{
     width: 80px;
     margin: 0 10px;
     cursor: pointer;
+}
+.fa-brands fa-instagram{
+    width: 20px;
+    height: 20px;
+    color: white;
 }
 
 .social-icons img:hover {
     opacity: 0.7;
 }
 
+
 @media screen and (min-width: 400px)
-
-
-
-
 
     
   

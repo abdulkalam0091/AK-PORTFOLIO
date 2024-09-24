@@ -10,6 +10,7 @@ justify-content: center;
 font-size: 24px;
 gap: 40px;
 margin-right: 150px;
+
     
 }
 .navitem a{
@@ -20,6 +21,7 @@ margin-right: 150px;
     size: 24px;
     gap: 40px;
     padding: 30px;
+    
 }
 .contact{
 margin: 0%;
@@ -170,9 +172,10 @@ background-color: rgb(82, 187, 228);box-shadow: inset -400px 0px   300px  #4922b
   }
   .profile2{
     
-    margin-top: 100px;
+    margin-top: 10px;
     color: white;
     margin-left: 80px;
+    margin-right: 100px;
   }
   
 
@@ -181,7 +184,7 @@ background-color: rgb(82, 187, 228);box-shadow: inset -400px 0px   300px  #4922b
   .info2{
     color: white;
     font-size: 15px;
-    margin-left: 150px;
+    margin-left: 110px;
     margin-top: 60px;
   }
   .info2 h1{
@@ -203,6 +206,7 @@ background-color: rgb(82, 187, 228);box-shadow: inset -400px 0px   300px  #4922b
   }
   .profile3{
     margin-top: 90px;
+    margin-right: 100px;
   }
 
 
@@ -228,13 +232,17 @@ background-color: rgb(82, 187, 228);box-shadow: inset -400px 0px   300px  #4922b
     
 }
   
-
+.experince{
+    cursor: pointer;
+}
 
 .experince1{
     text-align: center;
     color: white;
     margin-top: 80px;
+    
 }
+
 .experince2{
     display: flex;
     justify-content: space-evenly;
@@ -242,6 +250,7 @@ background-color: rgb(82, 187, 228);box-shadow: inset -400px 0px   300px  #4922b
 
 .html {
     border: 25px solid red;
+    cursor: pointer;
 }
 .css{
     border: 25px solid #2164b1;
@@ -345,7 +354,7 @@ footer {
 .social-icons i{
     width: 80px;
     margin: 0 10px;
-    cursor: pointer;
+    
 }
 .fa-brands fa-instagram{
     width: 20px;

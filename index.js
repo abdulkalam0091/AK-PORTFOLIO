@@ -510,16 +510,16 @@
 // console.log(value);
 
 
-value (1)
-functin value(n){
-console.log(n)
-if(n%2==0){
-    console.log("even numbur");
-}else{
-    console.log("odd numbur");
-}
+// value (1)
+// functin value(n){
+// console.log(n)
+// if(n%2==0){
+//     console.log("even numbur");
+// }else{
+//     console.log("odd numbur");
+// }
 
-}
+// }
 
 
 
@@ -565,3 +565,12 @@ if(n%2==0){
 //     }
 //     return sum
 // }
+
+
+
+
+let value=10;
+while(value<50){
+    console.log(value)
+    value++
+}

@@ -569,8 +569,8 @@
 
 
 
-let value=10;
-while(value<50){
-    console.log(value)
-    value++
-}
+// let value=10;
+// while(value<50){
+//     console.log(value)
+//     value++
+// }

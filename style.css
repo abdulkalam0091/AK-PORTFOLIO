@@ -10,6 +10,9 @@ justify-content: center;
 font-size: 24px;
 gap: 40px;
 margin-right: 150px;
+position: fixed;
+background-color: #4922be;
+
 
     
 }
@@ -287,11 +290,12 @@ background-color: rgb(82, 187, 228);box-shadow: inset -400px 0px   300px  #4922b
     margin-bottom: 20px;
 }
 
-.info-item {
+.info-item  {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
     color: white;
+    
 }
 
 .info-item img {
@@ -338,12 +342,13 @@ footer {
     background-color : #4ea1d7 ;box-shadow: inset  -20px 0px 20px#4922be;
     padding: 20px 0;
     text-align: center;
+    
 }
 
 .footer-content  {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
     padding: 0 20px;
     color: white;
 }
@@ -367,7 +372,3 @@ footer {
 }
 
 
-@media screen and (min-width: 400px)
-
-    
-  

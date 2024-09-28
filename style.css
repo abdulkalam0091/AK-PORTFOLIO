@@ -348,17 +348,18 @@ footer {
 .footer-content  {
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    
     padding: 0 20px;
     color: white;
 }
-.footer-content p {
+.footer-content  {
     text-align: center;
 }
 
 .social-icons i{
     width: 80px;
     margin: 0 10px;
+    text-align: right;
     
 }
 .fa-brands fa-instagram{
